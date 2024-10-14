@@ -1,0 +1,38 @@
+.main_fvrt {
+  width: 95%;
+  margin: 0 auto;
+}
+.header_fvrt {
+}
+.pfvt {
+  text-align: left;
+  font: normal normal normal 36px/44px IvyMode;
+  letter-spacing: 1.19px;
+  color: #222222;
+  opacity: 1;
+}
+.pfvr {
+  text-align: left;
+  font: normal normal normal 24px/44px BrownLight;
+  letter-spacing: 0.53px;
+  color: #222222;
+  opacity: 1;
+}
+
+/* .Exs_swipper{
+    margin: 3rem;
+  } */
+
+.Exs_swipper h2 {
+  font: normal normal normal 36px/44px IvyMode;
+  letter-spacing: 1.19px;
+  color: #222222;
+  opacity: 1;
+}
+.EXs{
+  margin-top: 2rem;
+}
+
+.num_hrt{
+  margin-top: 4rem;
+}

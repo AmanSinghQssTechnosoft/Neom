@@ -1,26 +1,60 @@
-.dashboard{
-    margin: 3rem 1rem;
-}
-.dashboard .content {
-    
+.dashboard {
+  margin: 3rem 1rem;
 }
 
+
 .dashboard .content .carousel-heading {
-    font-size: clamp(30px, 3vw, 36px);
-    margin-bottom: 1.25rem;
-    font-family: "Ivy Mode", sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
+  font-size: clamp(30px, 3vw, 36px);
+  margin-bottom: 1.25rem;
+  font-family: "Ivy Mode", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
 }
 
 .dashboard .content .carousel-desc {
-    font-family: "brownlight",sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-bottom: 3rem;
-    line-height: 1.8rem;
+  font-family: "brownlight", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  line-height: 1.8rem;
+}
+.main_reco {
+  margin: 3.5rem 1rem;
 }
 
+
+
+.recomnd p {
+  text-align: left;
+  font: normal normal normal 36px/44px IvyMode;
+  letter-spacing: 1.19px;
+  color: #222222;
+  opacity: 1;
+}
+.charlitext p {
+  color: var(--unnamed-color-222222);
+  text-align: left;
+  font: normal normal normal 36px/58px IvyMode;
+  letter-spacing: 1.19px;
+  color: #222222;
+  opacity: 1;
+}
+.main_charli{
+  margin: .1rem 1rem;
+}
+.leflet{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.leftxt h1{
+  text-align: center;
+  font: normal normal normal 36px/43px IvyMode;
+  letter-spacing: 1.19px;
+  color: #222222;
+  opacity: 1;
+}
 @media screen and (min-width: 576px) {
   .dashboard .content {
     margin-left: calc((100% - calc(var(--sm) - calc(var(--gutter) * 2))) / 2);
@@ -56,3 +90,4 @@
     margin-left: calc((100% - calc(var(--xxxl) - calc(var(--gutter) * 2))) / 2);
   }
 }
+

@@ -1,0 +1,51 @@
+.newSlide {
+  position: relative;
+  overflow: hidden;
+}
+
+.img_Sx {
+  width: 100%;
+}
+
+.img_Sx img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.txt_Sx {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+  text-align: left;
+}
+.txt_Sx h1 {
+  text-align: left;
+  font: normal normal normal 36px/15px IvyMode;
+  letter-spacing: 1.09px;
+  color: #ffffff;
+  opacity: 1;
+}
+.txt_Sx p {
+  text-align: left;
+  font: normal normal normal 16px/28px BrownLight;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  opacity: 1;
+}
+.txt_Sx2{
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: #ffffff;
+}
+.txt_Sx2 p{
+  text-align: left;
+  font-style: oblique;
+  color: #FFFFFF;
+  opacity: 1;
+}

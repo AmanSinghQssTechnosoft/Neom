@@ -5,7 +5,7 @@
   position: sticky;
   width: 100%;
   box-shadow: 0px 1px 0px #eeeeee;
-  z-index: 101;
+  z-index: 100000;
   left: 0;
   top: 0;
   background-color: #f9f7f2;
